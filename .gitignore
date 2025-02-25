@@ -13,4 +13,4 @@ wheels/
 .env
 
 #logs
-logs/*.log*
+logs/*
