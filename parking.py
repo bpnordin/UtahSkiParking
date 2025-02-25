@@ -455,7 +455,7 @@ if __name__ == "__main__":
                 "level": "DEBUG",
                 "formatter": "standard",
                 "class": "logging.handlers.RotatingFileHandler",
-                "filename": "log/log.log",
+                "filename": "logs/log.log",
                 "mode": "a",
                 "backupCount": 5,
                 "maxBytes": 100000,
