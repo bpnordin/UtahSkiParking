@@ -1,0 +1,13 @@
+[project]
+name = "UtahParking"
+version = "0.1.0"
+description = "Automate getting parking from Utah Ski Resorts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=24.10.0",
+    "pushbullet-python>=1.7.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "selenium>=4.27.1",
+]
