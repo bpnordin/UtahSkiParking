@@ -13,7 +13,7 @@ is the same account as Brighton Parking and Solitide Parking and they all have t
 - install requirements
     - I recommend installing [uv](https://github.com/astral-sh/uv)
     - run ```uv sync```
-    - activate the virtual env python (```source .venv/bin/activate``` on mac/linux, on windows it is ```.venv\Scripts\ctivate```)
+    - activate the virtual env python (```source .venv/bin/activate``` on mac/linux, on windows it is ```.venv\Scripts\activate```)
 - run ```python parking.py```, wait and reap benefits
 
 I think the instructions on the command line after that are self explanitory, but essentially pick the ski resort and the date
