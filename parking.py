@@ -336,7 +336,7 @@ class ParkingBrowser:
             data = self.getJSONData()
             if data is not None:
                 try:
-                    soldOut = data[f"{year}-{month}-{day}T00:00:00-07:00"]["status"][
+                    soldOut = data[f"{year}-{month}-{day}T00:00:00-06:00"]["status"][
                         "sold_out"
                     ]
                     logger.info("sold out on %s-%s: %s", month, day, soldOut)
